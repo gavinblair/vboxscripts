@@ -1,0 +1,8 @@
+#!/bin/bash 
+old=$(vboxip)
+new=$(vboxip)
+while [ $old == $new ]; do
+ new=$(vboxip)
+ sleep 2
+done
+`say "Gavin. The virtual machine has finally rebooted and has a new ip address. Have a nice day."`
