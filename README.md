@@ -20,7 +20,7 @@ Copy the name (between the quotes) of the machine you wish to control.
 
 Edit the scripts and replace `"Apache - Centos 5.3"` with your virtual machine name. Put your name at the bottom of `vboxwait`.
 
-***Note: `vboxip` gives you the IP address of the first VM in the list. I guess it should use the name instead.***
+***Note: `vboxip` gives you the IP address of the first VM in the list. I guess it should be updated to use the name instead.***
 
 Copy to your bin folder:
 ```
