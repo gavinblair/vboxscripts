@@ -59,6 +59,16 @@ You may want to restart your VM if you want a new IP. Restarting can take a few 
 $ vboxwait
 ```
 
+You can grab a screenshot of your VM to see what's going on. This command will create a file called `screenshot.png` in the current directory.
+```
+$ vboxscreen
+```
+
+If you have the QuickLook `ql` command installed (Mac only) you can use it to quickly view the screenshot:
+```
+$ vboxscreen; ql screenshot.png
+```
+
 If you want to do more with your virtualbox from the command line use `VBoxManage`. Here are some common commands:
 
 List VMs:
