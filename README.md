@@ -39,6 +39,11 @@ Get the IP address of your vm:
 $ vboxip
 ```
 
+Get the IP address of your host machine (Tested on a Mac) :
+```
+$ hostip
+```
+
 Copy the IP address of your vm (at least on the Mac). Note that this could include a newline after the IP address.
 ```
 $ vboxip | pbcopy
