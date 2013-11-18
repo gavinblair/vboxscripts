@@ -1,0 +1,1 @@
+tail -f /websites/logs/error_log | while read line; do echo $line; say 'Gavin, I have detected a server error.' ; done
