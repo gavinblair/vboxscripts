@@ -74,6 +74,11 @@ If you have the QuickLook `ql` command installed (Mac only) you can use it to qu
 $ vboxscreen; ql screenshot.png
 ```
 
+If you want to monitor your vm's apache error log file, you can use the following command. Note that your error log must be somewhere that your host machine can access (I keep mine in /websites/logs). You can change where Apache keeps its error log in `httpd.conf`. The `say` command is Mac OSX only. For other operating systems you can have it play back an audio file or emit a system beep.
+```
+$ errorwatch
+```
+
 If you want to do more with your virtualbox from the command line use `VBoxManage`. Here are some common commands:
 
 List VMs:
